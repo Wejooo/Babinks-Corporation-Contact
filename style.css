@@ -48,68 +48,9 @@ body {
   border: 1px solid #563d7c;
 }
 
-/***************** CONTACT ******************/
-.contact {
-  text-align: center;
-  position: relative;
-  padding: 60px 0;
-}
-.form-grid {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 100px 224px;
-  grid-template-areas:
-    "input1 input2"
-    "texta texta";
-  gap: 10px;
-  width: 85%;
-  max-width: 600px;
-  margin: 30px auto;
-}
-.textarea {
-  grid-area: texta;
-}
-label {
-  font-weight: 600;
-  font-size: 0.8rem;
-  letter-spacing: 1px;
-}
-input[type="text"],
-textarea {
-  width: 100%;
-  margin: 20px 0 40px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-  padding: 10px;
-  transition: 0.2s;
-}
-input[type="text"]:focus,
-textarea:focus {
-  border: 2px solid skyblue;
-}
-textarea {
-  resize: none;
-  height: 180px;
-}
 
-.jumbotron {
-  padding: 1rem;
-  border-radius: 0;
-}
-.padding {
-  padding-bottom: 2rem;
-}
-.welcome {
-  width: 75%;
-  margin: 0 auto;
-  padding-top: 2rem;
-}
-.welcome hr {
-  border-top: 2px solid #b4b4b4;
-  width: 95%;
-  margin-top: 0.3rem;
-  margin-bottom: 1rem;
-}
+
+
 .fa-code {
   color: #e54d26;
 }
@@ -269,26 +210,26 @@ hr.light-100 {
 #nom {
   display: block;
 }
-#prenom {
+.prenom {
   display: block;
 }
-#email {
+.email {
   display: block;
 }
-#telephone {
+.telephone {
   display: block;
 }
-#typedepiscine {
+.typedepiscine {
   display: block;
 }
-#message{
+.message{
   display: block;
 }
-label {
+.label {
   font-size: 20px;
   margin-top: 10%;
   display: block;}
-form {
+.form {
   background-color: white;
   width: 25%;
   padding: 10px 0 10px 70px;
@@ -299,55 +240,55 @@ form {
   font-weight: bold;
   font-size: 30px;
 }
-#envoyer {
+.envoyer {
   margin-top: 30px;
   margin-left: 70px;
 }
-#titre {
+.titre {
   font-size: 30px;
   margin-bottom: 40px;
 }
 /*maap et coordonée*/
-#ounoustrouver{
+.ounoustrouver{
   display:block;
   margin-top: 50px;
   color: white;
   font-weight: bold;
 }
-#maap {
+.maap {
   width: 46%;
   display: inline-block;
   text-align: center;
   background-color: white;
   padding-bottom: 80px;}
-#coordonee {
+.coordonee {
   width: 51%;
   display: inline-block;
   vertical-align: top;
   background-color:rgb(40, 185, 210);
   padding:0px 30px 115px 0px;
 }
-iframe {
+.iframe {
   width: 300px;
 }
-address {
+.address {
   font-size: 20px;
   margin-top: 50px;
   text-align: center;
 }
-#maap h2 {
+.maap h2 {
   color: rgb(40, 185, 210);
 }
 /*icon tel*/
-#coordonee img {
+.coordonee img {
   width: 33px;
   height: 33px;
   display: inline;}
-#coordonee p {
+.coordonee p {
   display: inline;
   width: 200px;
 }
-#telephone {
+.telephone {
   text-align: center;
   margin-top: 30px;
 }
