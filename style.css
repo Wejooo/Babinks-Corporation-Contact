@@ -49,6 +49,68 @@ body {
 }
 
 
+/***************** CONTACT ******************/
+.contact {
+  text-align: center;
+  position: relative;
+  padding: 60px 0;
+}
+.form-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100px 224px;
+  grid-template-areas:
+    "input1 input2"
+    "texta texta";
+  gap: 10px;
+  width: 85%;
+  max-width: 600px;
+  margin: 30px auto;
+}
+.textarea {
+  grid-area: texta;
+}
+label {
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+input[type="text"],
+textarea {
+  width: 100%;
+  margin: 20px 0 40px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  transition: 0.2s;
+}
+input[type="text"]:focus,
+textarea:focus {
+  border: 2px solid skyblue;
+}
+textarea {
+  resize: none;
+  height: 180px;
+}
+
+.jumbotron {
+  padding: 1rem;
+  border-radius: 0;
+}
+.padding {
+  padding-bottom: 2rem;
+}
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
 
 
 .fa-code {
@@ -198,97 +260,4 @@ hr.light-100 {
     width: 100%;
     height: 100%;
   }
-}
-
-
-
-
-
-
-
-*formulaire de contact*/
-#nom {
-  display: block;
-}
-.prenom {
-  display: block;
-}
-.email {
-  display: block;
-}
-.telephone {
-  display: block;
-}
-.typedepiscine {
-  display: block;
-}
-.message{
-  display: block;
-}
-.label {
-  font-size: 20px;
-  margin-top: 10%;
-  display: block;}
-.form {
-  background-color: white;
-  width: 25%;
-  padding: 10px 0 10px 70px;
-  margin-left: 450px;
-  box-shadow: 4px 4px 2px grey;
-  display: inline-block;
-  color: rgb(40, 185, 210);
-  font-weight: bold;
-  font-size: 30px;
-}
-.envoyer {
-  margin-top: 30px;
-  margin-left: 70px;
-}
-.titre {
-  font-size: 30px;
-  margin-bottom: 40px;
-}
-/*maap et coordonée*/
-.ounoustrouver{
-  display:block;
-  margin-top: 50px;
-  color: white;
-  font-weight: bold;
-}
-.maap {
-  width: 46%;
-  display: inline-block;
-  text-align: center;
-  background-color: white;
-  padding-bottom: 80px;}
-.coordonee {
-  width: 51%;
-  display: inline-block;
-  vertical-align: top;
-  background-color:rgb(40, 185, 210);
-  padding:0px 30px 115px 0px;
-}
-.iframe {
-  width: 300px;
-}
-.address {
-  font-size: 20px;
-  margin-top: 50px;
-  text-align: center;
-}
-.maap h2 {
-  color: rgb(40, 185, 210);
-}
-/*icon tel*/
-.coordonee img {
-  width: 33px;
-  height: 33px;
-  display: inline;}
-.coordonee p {
-  display: inline;
-  width: 200px;
-}
-.telephone {
-  text-align: center;
-  margin-top: 30px;
 }
